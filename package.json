@@ -1,0 +1,26 @@
+{
+  "name": "cf7-validate",
+  "version": "1.0.0",
+  "main": "dist/bundle.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --progress --colors --watch",
+    "build": "NODE_ENV=production webpack --progress"
+  },
+  "dependencies": {
+    "float-labels.js": "^3.3.5",
+    "imask": "^3.4.0",
+    "isomorphic-fetch": "^2.2.1",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dashboard": "^2.0.0"
+  }
+}
